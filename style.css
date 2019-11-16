@@ -38,6 +38,12 @@
      -webkit-font-smoothing: antialiased;
      -moz-osx-font-smoothing: grayscale;
  }
+
+ @media screen and (min-width: 800px) {
+  body {
+    font-size: 24px;
+  }
+}
  
  p {
    margin: 0; 
@@ -74,15 +80,29 @@
    background: rgba(165, 179, 187, 0.25);
  }
 
+.layout {
+  padding: 4rem 2rem;
+}
+
+@media screen and (min-width: 800px) {
+  .layout {
+    padding: 4rem;
+  }
+}
+
 .links {
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
+}
+
+.links span {
+  display: block;
 }
 
 .links a {
-    display: block;
-    font-size: 1.5rem;
-    line-height: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-    text-decoration: underline;
+  line-height: 1.25em;
+  margin-bottom: 0.5rem;
+}
+
+.links a:hover {
+  text-decoration: underline;
 }
