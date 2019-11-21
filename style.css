@@ -82,6 +82,7 @@
 
 .layout {
   padding: 4rem 2rem;
+  border-top: 4px solid #9cd88b;
 }
 
 @media screen and (min-width: 800px) {
